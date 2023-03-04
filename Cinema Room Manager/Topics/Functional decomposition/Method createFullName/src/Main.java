@@ -1,0 +1,32 @@
+// Don't delete scanner import
+import java.util.Scanner;
+
+class Name {
+
+    static String createFullName(String first, String last){
+        String fullName = first + " " + last;
+        return fullName;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    // use this program as a source of inspiration for your method
+
+        String firstName1 = scanner.next();
+        String lastName1 = scanner.next();
+        createFullName(firstName1, lastName1);
+
+        String firstName2 = scanner.next();
+        String lastName2 = scanner.next();
+        createFullName(firstName2, lastName2);
+
+        String firstName3 = scanner.next();
+        String lastName3 = scanner.next();
+        createFullName(firstName3, lastName3);
+    }
+
+    //implement your method here
+
+
+}
